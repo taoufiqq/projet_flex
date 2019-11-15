@@ -1,0 +1,103 @@
+/**{
+	margin: 0;
+	padding:0;
+}
+body{
+	height: 900px;
+	background-color: beige;
+}
+.container{
+	width: 90%;
+	margin-left: 5%;
+}
+header{
+	height: 60vh;
+	background-image: url('pics/image.jpg');
+	background-size: 100% 100%;
+}
+header .container{
+	padding-top: 8px;
+	/*background-color: dimgrey;
+}
+header h1{
+	font-variant: small-caps;
+	display: inline-block;
+	width: 680px;
+	text-decoration: underline;
+}
+header nav{
+	display: inline-block;
+}
+header nav ul {
+	margin-top:1%;
+	height: 20px;
+}
+header nav ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 10px;
+	/*background-color: #6969697d;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+header nav input{
+	margin-left: 45%;
+	width: 200px;
+	background-color: transparent;
+
+}*/
+.header{
+	height: 60px;
+	background-color: dimgrey;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+.header a{
+	text-decoration: none;
+}
+.container_1{
+	display: flex;
+	flex-wrap: wrap;
+}
+.container_1 div{
+	border: 1px solid black;
+	padding: 6px;
+}
+.sisebar{
+        width: 20%;
+        order: 1;
+        
+}
+.body{
+        width: 58.91%;
+        order: 2;
+}    
+.sidebar2{
+       order: 3;
+}
+.footer{
+	order: 4;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+ @media(max-height: 400px){
+	.body{
+		width: 58%;
+	}
+	.sidebar{
+		order: 3;
+		width: 50%;
+
+	}
+}
