@@ -71,26 +71,17 @@ header nav input{
 	padding: 6px;
 }
 .sisebar{
-        flex-basis: 25%;
+        flex-basis: 50%;
         order: 1;
         
 }
 .body{
         flex-basis: 50%;
-        order: 2;
 }    
 .sidebar2{
-       order: 3;
+       order: 1;
 }
-/*.footer{
-	order: 4;
-    flex-basis:100%;
-    background-color: black;
-    display: flex;
-    justify-content: center;
 
-}*/
-/* Footer */
 
 footer
 {
@@ -119,6 +110,7 @@ footer h1
 {
     width: 35%;
 }
+
 
 #mes_amis
 {
@@ -149,18 +141,17 @@ footer h1
     text-decoration: none;
     color: #760001;
 }
-<<<<<<< HEAD
-wqwq
- @media(max-height: 400px){
-=======
- @media(max-width: 400px){
->>>>>>> d24aabdc8ede7e6660bfefa3e8d332a83c6aa565
+
+ @media(max-width: 500px){
+
 	.body{
-		width: 58%;
+		flex-basis:100%;
+		background-color: red;
 	}
 	.sidebar{
-		order: 3;
-		width: 50%;
+         order:1;
+		flex-basis: 47%;
+		background-color: yellow;
 
 	}
 }
