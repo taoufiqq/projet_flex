@@ -50,7 +50,7 @@ header nav input{
 
 }*/
 .header{
-	height: 60px;
+	flex-basis: 100%;
 	background-color: dimgrey;
 	display: flex;
 	align-items: center;
@@ -71,12 +71,12 @@ header nav input{
 	padding: 6px;
 }
 .sisebar{
-        width: 20%;
+        flex-basis: 25%;
         order: 1;
         
 }
 .body{
-        width: 58.91%;
+        flex-basis: 50%;
         order: 2;
 }    
 .sidebar2{
@@ -84,14 +84,13 @@ header nav input{
 }
 .footer{
 	order: 4;
-    width: 100%;
-    height: 80px;
+    flex-basis:100%;
     background-color: black;
     display: flex;
     justify-content: center;
 
 }
- @media(max-height: 400px){
+ @media(max-width: 400px){
 	.body{
 		width: 58%;
 	}
