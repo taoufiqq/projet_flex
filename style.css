@@ -71,32 +71,33 @@ header nav input{
 	padding: 6px;
 }
 .sisebar{
-        flex-basis: 25%;
+        flex-basis: 50%;
         order: 1;
         
 }
 .body{
         flex-basis: 50%;
-        order: 2;
 }    
 .sidebar2{
-       order: 3;
+       order: 1;
 }
 .footer{
-	order: 4;
+	order: 2;
     flex-basis:100%;
     background-color: black;
     display: flex;
     justify-content: center;
 
 }
- @media(max-width: 400px){
+ @media(max-width: 500px){
 	.body{
-		width: 58%;
+		flex-basis:100%;
+		background-color: red;
 	}
 	.sidebar{
-		order: 3;
-		width: 50%;
+         order:1;
+		flex-basis: 47%;
+		background-color: yellow;
 
 	}
 }
