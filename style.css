@@ -49,6 +49,22 @@ header nav input{
 	background-color: transparent;
 
 }*/
+.list{
+	opacity: 1;
+    cursor: pointer;
+    background-color:white;
+    border: brown 2px , solid;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+    color: black;
+    font-size: 16px;
+	text-align: center;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .header{
 	flex-basis: 100%;
 	background-color: dimgrey;
