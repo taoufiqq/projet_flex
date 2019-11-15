@@ -82,7 +82,7 @@ header nav input{
 .sidebar2{
        order: 3;
 }
-.footer{
+/*.footer{
 	order: 4;
     width: 100%;
     height: 80px;
@@ -90,7 +90,67 @@ header nav input{
     display: flex;
     justify-content: center;
 
+}*/
+/* Footer */
+
+footer
+{
+    
+    background:  url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top;
+    padding-top: 25px;
 }
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+
+#tweet
+{
+    width: 28%;
+}
+
+#mes_photos
+{
+    width: 35%;
+}
+
+#mes_amis
+{
+    width: 31%;
+}
+
+#mes_photos img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#listes_amis
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+#mes_amis ul
+{
+    list-style-image: url('images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+
+#mes_amis a
+{
+    text-decoration: none;
+    color: #760001;
+}
+wqwq
  @media(max-height: 400px){
 	.body{
 		width: 58%;
